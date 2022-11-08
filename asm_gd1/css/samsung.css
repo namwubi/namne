@@ -1,0 +1,297 @@
+body {
+    margin: 0 auto;
+}
+.header {
+    background-image: url('/img/demo.jpg');
+    background-size: 100% 100%;
+    height:230px;
+    background-color: rgb(245, 245, 245);
+    border-top:  solid #00483d;  
+    
+}
+.tim-kiem{
+    margin-top: 190px;
+    margin-left: 55%;
+  width: 500px;
+  height: 25px;
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px #00483d;
+  background-color:rgb(255, 255, 255);
+ border: 1px double #00483d;
+  
+}
+.nut{
+    background-color: #00483d;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin-right: 70px;
+    
+}
+.nut:hover{
+    color: #00483d;
+    background-color: rgb(229, 241, 233);
+    font-weight: bold;
+}
+.ten{
+    text-align: right;
+    font-size: 30px;
+    font-variant: small-caps;
+    padding-top: 20px;
+    padding-right: 30px;
+    
+    
+}
+.ten a{
+    text-decoration:none;
+    color: rgb(90, 184, 107);
+}
+.ten a:hover{
+    color: white;
+}
+.menu{
+    
+    height: 50px;
+    background-color: #00483d;
+    border-bottom:3px solid rgba(30, 110, 30, 0.555) ;
+    border-top:3px solid rgba(30, 110, 30, 0.555) ;
+}
+ul.horizontal-menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+ul.horizontal-menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+ul.horizontal-menu li:hover {
+    background-color: white;
+    border-bottom: 2px solid black;
+    
+}
+ul.horizontal-menu li:hover a{
+    color: black;
+}
+
+ul.horizontal-menu li a{
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+
+li.parent-menu{
+    position: relative;
+}
+li.parent-menu:hover ul.child-menu{
+    display: block;
+}
+ul.child-menu{
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    display: none;
+    left: 50px;
+    border-radius: 20px;
+}
+
+ul.child-menu li {
+    display: block;
+    border-bottom: px double black;
+    border-radius: 0;
+}
+ul.child-menu li:hover {
+    background-color: rgba(92, 189, 73, 0.315);
+    border: none;
+}
+ul.child-menu li:hover a{
+    color:green;
+}
+
+ul.child-menu li a{
+    color: orange;
+}
+
+
+.content{
+   /* height:350px; */
+   margin-top: 0px;
+   
+   
+   
+    
+    
+    
+}
+/* .content div{
+    height: 800px;
+     
+     display: flex;
+ } */
+/* img{
+    width: 195px;
+    height: 250px;
+    margin: 5px 5px;
+    padding: 46px;
+    border: 3px solid black;
+   border-radius: 10px;
+   background-color: rgb(243, 240, 240);
+} */
+.tong{
+    height: 1350px;
+    background-color: rgba(154, 187, 155, 0.384);
+    
+}
+
+.column{
+    height: 23%;
+    float: left;
+    
+    margin: 30px;
+    border-radius: 15px;
+    background-color: white;
+   
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 5px 5px 5px rgba(141, 224, 121, 0.986);
+    font-weight: bold;
+    
+}
+.column :hover{
+    opacity: 0.7;
+    cursor: pointer;   
+}
+
+/* .footer{
+   height: 300px;
+    background-color: #00483d;
+} */
+.gia{
+    color: red;
+    font-size: 18px;
+    
+}
+.gia del {
+    color: black;
+    font-size: 15px;
+}
+.bao-hanh{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+   margin-top: 180px;
+  margin-right: 30%;
+}
+footer
+{
+    display: flex;
+    background-color: #00483d;
+    border-top: 10px double rgba(23, 121, 44, 0.932) ;
+    font-size: 13px;
+    height: 330px;
+    
+}
+footer> .footer_gt
+{
+    padding: 20px 40px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+.chat{
+    width: 60px;
+    height: 60px;
+    background-color: #fcfdfd;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    animation: ring ease 0.8s ;
+    animation-delay: 0s;
+    animation-direction: alternate;  
+    animation-iteration-count: infinite;
+
+}
+.chat1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.footer_gt
+{
+    width: 98%;
+    padding: 5px;
+   
+}
+.footer_logo
+{
+    position: absolute;
+    bottom: -350px;
+    right: 40px;
+}
+.footer_end
+{
+    position: absolute;
+    bottom: -360px;
+    right: 850px;
+    color: blue;
+}
+.footer_end2
+{
+    position: absolute;
+    bottom: -360px;
+    right: 460px;
+    color: blue;
+}
+.footer_gt>h2
+{
+    color: white;
+}
+.footer_gt>textarea:focus
+{
+    box-shadow: 0 0 3px orangered;
+    border: 1px solid red;
+}
+.footer_tich
+{
+    /* position: absolute; */
+    bottom: -250px;
+   
+    left: 50px;
+
+
+}
+.footer_gt a{
+    color: white;
+}
+.cuoi{
+    position: absolute;
+    margin-top: 230px;
+    text-align: center;
+    margin-left: 16%;
+    color: white;
+}
+
+
+
+
+
